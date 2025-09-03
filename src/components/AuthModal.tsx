@@ -143,7 +143,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
           )}
 
           <div className="relative">
-            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">📧</span>
+            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">✉</span>
             <input
               type="email"
               name="email"
@@ -171,7 +171,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
           )}
 
           <div className="relative">
-            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">🔒</span>
+            <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">🔐</span>
             <input
               type={showPassword ? 'text' : 'password'}
               name="password"
@@ -186,7 +186,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLogin }
               onClick={() => setShowPassword(!showPassword)}
               className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
             >
-              {showPassword ? '🙈' : '👁️'}
+              {showPassword ? '🙈' : '👁'}
             </button>
           </div>
 
