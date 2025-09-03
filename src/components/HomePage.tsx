@@ -20,7 +20,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onLogin, onSignUp }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center text-white">
             <div className="inline-flex items-center bg-yellow-400/20 backdrop-blur-sm text-yellow-300 px-6 py-3 rounded-full text-sm font-medium mb-8">
-              ⭐
               Sri Lanka's Leading Heavy Vehicle & Material Platform
             </div>
             
@@ -219,7 +218,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onLogin, onSignUp }) => {
             <div className="group bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-8 border border-blue-200 hover:shadow-2xl transition-all duration-500">
               <div className="text-center">
                 <div className="bg-blue-500 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white text-3xl">👥</span>
+                  <span className="text-white text-3xl">👤</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Service Consumers</h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
@@ -255,7 +254,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onLogin, onSignUp }) => {
             <div className="group bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-3xl p-8 border border-yellow-200 hover:shadow-2xl transition-all duration-500">
               <div className="text-center">
                 <div className="bg-yellow-500 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white text-3xl">🚚</span>
+                  <span className="text-white text-3xl">🚛</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Vehicle Owners</h3>
                 <p className="text-gray-700 leading-relaxed mb-6">

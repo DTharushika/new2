@@ -105,7 +105,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-yellow-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🏖️</span>
+                <span className="text-xl">🏝</span>
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Sand</h3>
               <p className="text-gray-600 text-sm">River sand, sea sand, construction sand</p>
@@ -146,7 +146,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-orange-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🪵</span>
+                <span className="text-xl">🌳</span>
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Timber</h3>
               <p className="text-gray-600 text-sm">Construction wood, planks</p>
@@ -154,7 +154,7 @@ export const MaterialsPage: React.FC<MaterialsPageProps> = ({ onSignUp, onMateri
 
             <div className="bg-gray-50 rounded-2xl p-6 text-center">
               <div className="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-xl">🏠</span>
+                <span className="text-xl">🏘</span>
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Cement</h3>
               <p className="text-gray-600 text-sm">Portland cement, concrete mix</p>
