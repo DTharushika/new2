@@ -16,28 +16,28 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="space-y-3">
               <div className="bg-orange-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto">
-                <span className="text-white text-2xl">👥</span>
+                <span className="text-white text-2xl">👤</span>
               </div>
               <div className="text-3xl font-bold text-white">500+</div>
               <div className="text-gray-300">Happy Customers</div>
             </div>
             <div className="space-y-3">
               <div className="bg-blue-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto">
-                <span className="text-white text-2xl">🚚</span>
+                <span className="text-white text-2xl">🚛</span>
               </div>
               <div className="text-3xl font-bold text-white">1000+</div>
               <div className="text-gray-300">Successful Deliveries</div>
             </div>
             <div className="space-y-3">
               <div className="bg-green-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto">
-                <span className="text-white text-2xl">⭐</span>
+                <span className="text-white text-2xl">✨</span>
               </div>
               <div className="text-3xl font-bold text-white">4.9/5</div>
               <div className="text-gray-300">Customer Rating</div>
             </div>
             <div className="space-y-3">
               <div className="bg-purple-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto">
-                <span className="text-white text-2xl">🏆</span>
+                <span className="text-white text-2xl">🏅</span>
               </div>
               <div className="text-3xl font-bold text-white">5+</div>
               <div className="text-gray-300">Years Experience</div>
