@@ -498,6 +498,7 @@ export const VehicleManagementPage: React.FC<VehicleManagementPageProps> = ({
                   <p className="text-gray-600">Based on {feedbacks.length} reviews</p>
                 </div>
               </div>
+            </div>
 
               {/* Feedback List */}
               {feedbacks.length > 0 ? (
